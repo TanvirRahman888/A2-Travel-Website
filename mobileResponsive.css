@@ -73,4 +73,23 @@
         padding: 0 15px;
     }
 
+    .Popular-Tours {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    .Popular-Tours .tour-information {
+        width: 80%;
+        padding: 10%;
+        margin: 0;
+    }
+    .Popular-Tours .tour-image {
+        width: 80%;
+        padding: 10%;
+        margin: 0;
+    
+    }
+
 }
