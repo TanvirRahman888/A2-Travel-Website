@@ -77,19 +77,44 @@
         margin-top: 20px;
         display: flex;
         flex-direction: column;
-    
-    
+
+
     }
+
     .Popular-Tours .tour-information {
         width: 80%;
         padding: 10%;
         margin: 0;
     }
+
     .Popular-Tours .tour-image {
         width: 80%;
         padding: 10%;
         margin: 0;
-    
+
+    }
+
+    .destination .destination-images {
+        display: grid;
+        grid-template-areas:
+            "image-1"
+            "image-2"
+            "image-3"
+            "image-4"
+            "image-5"
+            "image-6"
+            "image-7";
+    }
+
+    #image-1,#image-2,#image-3,#image-4,#image-5,#image-6,#image-7  {
+        width: 90%;
+        height: 90%;
+        padding: 5%;
+    }
+
+    #image-7 {
+        
+        margin: 0;
     }
 
 }

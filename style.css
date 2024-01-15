@@ -188,6 +188,8 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 }
+
+/* Image Grid */
 #image-1{
     grid-area: image-1;
 }
@@ -222,9 +224,23 @@ line-height: 26px;
     height: 300px;
 }
 #image-6{
-    width: 81.5%;
+    width: 82%;
 }
 #image-7{
     width: 120%;
-    margin-left: -150px;
+    margin-left: -160px;
+}
+.image-country{
+    position: relative;
+    text-align: center;
+    color: white;  
+}
+.show-image-country{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 800;
+
 }
