@@ -10,6 +10,18 @@ body {
     font-weight: 800;
 }
 
+.primary-button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
 /* Header Design */
 .header {
     display: flex;
@@ -32,33 +44,84 @@ body {
     margin-top: 0px;
     padding: 0px 20px;
 }
-.header .navigation{
+
+.header .navigation {
     text-align: right;
 
 }
-.header .navigation ul{
+
+.header .navigation ul {
     list-style: none;
 }
-.header .navigation ul li{
+
+.header .navigation ul li {
     margin-left: 44px;
     display: inline;
-padding: 10px 0px;
-justify-content: center;
+    padding: 10px 0px;
+    justify-content: center;
 
 }
-.header .navigation ul li a{
+
+.header .navigation ul li a {
     text-decoration: none;
     padding: 5px;
 
 }
 
-.header .navigation ul li a:hover{
+.header .navigation ul li a:hover {
     border: 1px solid rgba(79, 78, 78, 0.702);
     background-color: rgba(228, 228, 228, 0.92);
     border-radius: 6px;
 }
 
 /* Banner Section Design */
-.banner{
-    background-image: url("Images/");
+.banner {
+    background-image: url("Images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 122px;
+    border-radius: 12px;
+}
+
+.banner .banner-title {
+    text-align: center;
+
+}
+
+.banner .banner-title h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin: auto;
+    padding: 160px 0px 0px;
+}
+
+.banner .banner-title p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: auto;
+    padding: 24px 0px 0px;
+}
+
+.banner .travel-filter {
+    justify-content: center;
+    display: flex;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 48px 20%;
+}
+
+.banner .travel-filter input,
+option,
+select {
+    width: 174px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 0 15px;
 }
