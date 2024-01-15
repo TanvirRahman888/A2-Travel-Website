@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Common Design */
+body {
+    margin: 0 9%;
+}
+
+._2nd_Color {
+    color: #FF5400;
+    font-weight: 800;
+}
+
+/* Header Design */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.header .logo-title {
+    display: flex;
+}
+
+.header .logo-title .logo {}
+
+.header .logo-title .title {}
+
+.header .logo-title .title h1 {
+    color: #131318;
+    font-weight: 800;
+    font-size: 36px;
+    margin-top: 0px;
+    padding: 0px 20px;
+}
+.header .navigation{
+    text-align: right;
+
+}
+.header .navigation ul{
+    list-style: none;
+}
+.header .navigation ul li{
+    margin-left: 44px;
+    display: inline;
+padding: 10px 0px;
+justify-content: center;
+
+}
+.header .navigation ul li a{
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.header .navigation ul li a:hover{
+    border: 1px solid rgba(79, 78, 78, 0.702);
+    background-color: rgba(228, 228, 228, 0.92);
+    border-radius: 6px;
+}

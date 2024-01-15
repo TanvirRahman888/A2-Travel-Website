@@ -1,0 +1,28 @@
+@media screen and (max-width:600px) {
+    body {
+        margin: 0 auto;
+        
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: 25px;
+    }
+    .header .logo-title {
+        display: flex;
+        justify-content: center;
+    }
+    .header .navigation{
+        text-align: center;
+    
+    }
+    .header .navigation ul li{
+        margin: auto;
+        display: inline;
+    padding: 10px 0px;
+    justify-content: center;
+    
+    }
+
+}
