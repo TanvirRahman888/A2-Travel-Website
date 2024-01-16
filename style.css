@@ -367,3 +367,76 @@ line-height: 60px;
     height: 100%;
     border-radius: 10px;
 }
+
+/* Newsletter section */
+.Newsletter{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Newsletter .Newsletter-form {
+    padding: 0 5%;
+    margin: 0 30px 0 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    height: 400px;
+}
+.Newsletter .Newsletter-form h3{
+
+}
+.Newsletter .Newsletter-form p{
+
+}
+.Newsletter .Newsletter-form form{
+    
+}
+.Newsletter .Newsletter-form input {
+    display: block;
+    border-radius: 8px;
+    width: 60%;
+    padding: 12px 15px;
+    margin: 15px 2%;
+    background: rgba(19, 19, 24, 0.05);
+}
+#Newsletter-button{
+    width: 65%;
+    padding: 12px 15px;
+    margin: 15px 2%;
+}
+.Newsletter .Newsletter-image{
+    width: 60%;
+    background-image: url("Images/9.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 50%;
+    padding: 0 5%;
+}
+#Newsletter-hr {
+    width: 74%;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.Newsletter .Newsletter-image .image-over-text {
+    background: #FF5400;
+    width: 282px;
+    text-align: center;
+    padding: 1px;
+    border-radius: 10px;
+    margin: 55% 73%;
+    rotate: -30deg;
+}
+.Newsletter .Newsletter-image .image-over-text > p{
+    color: #FFF;
+font-size: 24px;
+font-weight: 400;
+margin: 5px 0px;
+
+}
+.Newsletter .Newsletter-image .image-over-text > h3{
+    color: #FFF;
+font-size: 32px;
+font-weight: 800;
+margin: 5px 0px;
+
+}
