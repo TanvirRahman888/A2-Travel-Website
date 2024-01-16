@@ -311,7 +311,7 @@ ul li {
     border: 1px solid rgba(233, 68, 68, 0.20);
     border-radius: 16px;
     background: rgba(233, 68, 68, 0.05);
-    margin: 0 30%;
+    margin: 0 25%;
 }
 
 .Why-Choose-Us .key-feature .key-feature-up {
@@ -386,6 +386,7 @@ ul li {
     border-radius: 16px;
     padding: 40px;
 }
+
 .Newsletter .Newsletter-form p {
     color: #5A5A5D;
     font-size: 16px;
@@ -448,6 +449,7 @@ ul li {
     text-align: center;
     rotate: -20deg;
 }
+
 .Newsletter .Newsletter-image .image-over-text>p {
     color: #FFF;
     font-size: 24px;
@@ -462,38 +464,49 @@ ul li {
     margin: 5px;
 }
 
-/* .footer {
+.footer {
 
-    margin-top: -250px;
+    margin-top: 50px;
+    padding-bottom: 20px;
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
-
 }
-.footer .footer-logo-title {
+.footer .footer-logo-title{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 0px;
+    padding-top: 110px;
 }
-.footer .footer-logo-title .logo{
-    margin-top: 1%;
+.footer .footer-logo-title img{
+    padding: 20px
 }
-
-.footer .footer-logo-title .h1{
-    color:  #131318;
-    font-size: 32px;
-    font-weight: 800;
+.footer .footer-logo-title .footer-title{
+    color: #131318;
+font-size: 32px;
+font-weight: 800;
+line-height: 0%;
+padding: 0;
+margin: 0;
 }
-
-.footer .social-media {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    gap: 24px;
-    padding-top: 15px;
-    padding-bottom: 0px;
+.footer p {
+    width: 40%;
+    padding: 0 30% 10px;
 }
-.footer > small{
-    text-align: center;
-
-} */
+.footer .footer-socila-media{
+    padding-bottom: 50px;
+}
+.footer .footer-socila-media img{
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    margin: 5px;
+}
+.footer .footer-socila-media img:hover{
+    background: #bd9a8225;
+    border-radius: 50%;
+}
+.footer hr{
+    margin: 10px 20%;
+}
+.footer .small{
+    margin-bottom: 20px;
+}
