@@ -24,7 +24,12 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 700;
+    border: 0px;
 
+}
+
+.primary-button:hover{
+    background: #db2911;
 }
 
 /* Header Design */
@@ -241,12 +246,12 @@ ul li {
 }
 
 #image-6 {
-    width: 82%;
+    width: 81%;
 }
 
 #image-7 {
     width: 120%;
-    margin-left: -160px;
+    margin-left: -155px;
 }
 
 .image-country {
@@ -319,173 +324,46 @@ ul li {
     justify-content: center;
     
 }
+.feature-video-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+.feature-video-section .feature-video-section-content{
+    width: 50%;
+    padding-right: 10%;
+    /* margin: 100px auto; */
+}
 
 
-/* *********************** */
-@media screen and (max-width:600px) {
-    body {
-        margin: 0 auto;
+.feature-video-section .feature-video-section-content > h3{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+line-height: 60px; 
+}
 
-    }
+.feature-video-section .feature-video-section-content >p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
 
-    .primary-button {
-        width: auto;
-    }
-
-    .header {
-        display: flex;
-        flex-direction: column;
-
-        margin-top: 25px;
-    }
-
-    .header .logo-title {
-        display: flex;
-        justify-content: center;
-    }
-
-    .header .navigation {
-        text-align: center;
-
-    }
-
-    .header .navigation ul li {
-        margin: auto;
-        display: inline;
-        padding: 10px 0px;
-        justify-content: center;
-
-    }
-
-    .banner {
-        background-image: url("Images/1.png"), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-bottom: 22px;
-        border-radius: 12px;
-    }
-
-    .banner .banner-title h2 {
-        color: #FFF;
-        font-size: 22px;
-        font-weight: 800;
-        margin: auto;
-        padding: 30px;
-    }
-
-    .banner .banner-title p {
-        color: #FFF;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 14px;
-        margin: auto;
-        padding: auto;
-    }
-
-    .banner .travel-filter {
-        flex-direction: column;
-    }
-
-    .banner .travel-filter input,
-    option,
-    select {
-        width: auto;
-        height: 52px;
-        border: 0;
-        border-radius: 8px;
-        background: #FFF;
-        padding: 0 15px;
-    }
-
-    .Popular-Tours {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-
-
-    }
-
-    .Popular-Tours .tour-information {
-        width: 80%;
-        padding: 10%;
-        margin: 0;
-    }
-
-    .Popular-Tours .tour-image {
-        width: 80%;
-        padding: 10%;
-        margin: 0;
-
-    }
-    .destination{
-        margin-top: 30px;
-    }
-    .destination p{
-        margin: 0 10% 20px;
-
-    }
-
-    .destination .destination-images {
-        display: grid;
-        grid-template-areas:
-            "image-1"
-            "image-2"
-            "image-3"
-            "image-4"
-            "image-5"
-            "image-6"
-            "image-7";
-    }
-
-    #image-1,#image-2,#image-3,#image-4,#image-5,#image-6,#image-7  {
-        width: 90%;
-        height: 90%;
-        padding: 5%;
-    }
-
-    #image-7 {
-        
-        margin: 0;
-    }
-    .Why-Choose-Us .key-feature h4 {
-        color: #131318;
-        text-align: left;
-        padding-left: 32px;
-        font-size: 20px;
-        font-weight: 800;
-    }
+.feature-video-section .feature-video-section-content ul{
     
-    .Why-Choose-Us .key-feature p {
-        margin: 10px 10%;
-        text-align: left;
-        font-size: 14px;
-
-    }
-    .Why-Choose-Us p {
-        color: rgba(19, 19, 24, 0.70);
-        text-align: center;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 24px;
-        margin: 0 10% 16px;
-    }
-    .key-feature{
-        
-        grid-template-areas: 
-        "key-feature1"
-        "key-feature2"
-        "key-feature3"    
-    }
-    .Why-Choose-Us .key-feature .key-feature-up{
-        flex-direction: column;
-    }
-    #key-feature1, #key-feature2, #key-feature3{
-        margin: 15px 10%;
-        width: 80%;
-        padding: 0;
-        gap: 0;
-    }
-
-
-
+}
+.feature-video-section .feature-video-section-content ul li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.feature-video-section .feature-video{
+    width: 50%;
+}
+.feature-video-section .feature-video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
