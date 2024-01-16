@@ -6,7 +6,7 @@
 
 }
 
-body {
+main {
     margin: 0 9%;
 }
 
@@ -425,6 +425,7 @@ line-height: 60px;
     border-radius: 10px;
     margin: 55% 73%;
     rotate: -30deg;
+    position: relative;
 }
 .Newsletter .Newsletter-image .image-over-text > p{
     color: #FFF;
@@ -438,5 +439,41 @@ margin: 5px 0px;
 font-size: 32px;
 font-weight: 800;
 margin: 5px 0px;
+
+}
+
+.footer {
+    margin-top: -250px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+
+}
+.footer .footer-logo-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    padding-bottom: 0px;
+}
+.footer .footer-logo-title .logo{
+    margin-top: 1%;
+}
+
+.footer .footer-logo-title .h1{
+    color:  #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer .social-media {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+.footer > small{
+    text-align: center;
+    margin: 0 45%;
 
 }
