@@ -209,53 +209,53 @@
     }
 
     .Newsletter {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
     #Newsletter-hr {
-        width: 90%;
+        /* width: 90%; */
     }
 
     .Newsletter .Newsletter-form {
-        width: 80%;
+        /* width: 80%;
         display: flex;
         align-items: center;
         margin: 30px 0;
-        flex-direction: column;
+        flex-direction: column; */
     }
 
     .Newsletter .Newsletter-form input {
-        display: block;
+        /* display: block;
         border-radius: 8px;
         width: 200%;
         padding: 12px 15px;
         margin: 15px 50px 0px -100px;
-        background: rgba(19, 19, 24, 0.05);
+        background: rgba(19, 19, 24, 0.05); */
     }
 
     #Newsletter-button {
-        width: 225%;
+        /* width: 225%;
         padding: 12px 15px;
-        margin: 15px -100px;
+        margin: 15px -100px; */
     }
 
     .Newsletter .Newsletter-image {
-        width: 80%;
+        /* width: 80%; */
     }
 
     .Newsletter .Newsletter-image .image-over-text {
-        background: #FF5400;
+        /* background: #FF5400;
         width: 252px;
         text-align: center;
         padding: 1px;
         border-radius: 10px;
         margin: 33% 46%;
-        rotate: -30deg;
+        rotate: -30deg; */
     }
 
-    .Newsletter .Newsletter-image .image-over-text {
+    /* .Newsletter .Newsletter-image .image-over-text {
         background: #FF5400;
         /* width: 282px; */
         text-align: center;
@@ -263,25 +263,25 @@
         border-radius: 10px;
         margin: 34% 41%;
         rotate: -30deg;
-        position: relative;
+        position: relative; */
     }
 
     .Newsletter .Newsletter-image .image-over-text>p {
-        color: #FFF;
+        /* color: #FFF;
         font-size: 24px;
         font-weight: 400;
-        margin: 5px 0px;
+        margin: 5px 0px; */
 
     }
 
     .Newsletter .Newsletter-image .image-over-text>h3 {
-        color: #FFF;
+        /* color: #FFF;
         font-size: 32px;
         font-weight: 800;
-        margin: 5px 0px;
+        margin: 5px 0px; */
 
     }
-    .footer {
+    /* .footer {
         margin-top: 30px;
         background: rgba(19, 19, 24, 0.05);
         text-align: center;
@@ -289,7 +289,7 @@
     .footer > small {
         text-align: center;
         margin: 0;
-    }
+    } */
 
 
 
