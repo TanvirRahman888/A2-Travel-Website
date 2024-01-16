@@ -385,11 +385,12 @@ ul li {
     border: 1px solid #FF5400;
     border-radius: 16px;
     padding: 40px;
-
-    /* padding: 0 5%;
-    margin: 0 30px 0 0;
-    height: 400px; */
-
+}
+.Newsletter .Newsletter-form p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .Newsletter .Newsletter-form h3 {
@@ -399,12 +400,6 @@ ul li {
 
 }
 
-.Newsletter .Newsletter-form p {
-    color: #5A5A5D;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-}
 
 .Newsletter .Newsletter-form form {}
 
@@ -421,9 +416,6 @@ ul li {
 
 #Newsletter-button {
     width: 100%;
-    /* width: 65%;
-    padding: 12px 15px;
-    margin: 15px 2%; */
 }
 
 #Newsletter-hr {
@@ -448,21 +440,19 @@ ul li {
 
 .Newsletter .Newsletter-image .image-over-text {
     position: absolute;
-    top: 60%;
-    left: 64%;
+    top: 65%;
+    left: 69%;
+    padding: 10px;
     border-radius: 16px;
     background: #FF5400;
     text-align: center;
-    width: 324px;
-    height: 120px;
-    transform: rotate(-19.628deg);
+    rotate: -20deg;
 }
 .Newsletter .Newsletter-image .image-over-text>p {
     color: #FFF;
     font-size: 24px;
     font-weight: 400;
     margin: 5px;
-
 }
 
 .Newsletter .Newsletter-image .image-over-text>h3 {
@@ -470,7 +460,6 @@ ul li {
     font-size: 32px;
     font-weight: 800;
     margin: 5px;
-
 }
 
 /* .footer {
