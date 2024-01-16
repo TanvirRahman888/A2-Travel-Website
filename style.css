@@ -448,10 +448,10 @@ margin: 5px 0px;
     text-align: center;
 
 }
-.footer .footer-logo-title{
+.footer .footer-logo-title {
     display: flex;
     justify-content: center;
-    padding-top: 110px;
+    padding-top: 30px;
     padding-bottom: 0px;
 }
 .footer .footer-logo-title .logo{
@@ -474,6 +474,5 @@ margin: 5px 0px;
 }
 .footer > small{
     text-align: center;
-    margin: 0 45%;
 
 }
