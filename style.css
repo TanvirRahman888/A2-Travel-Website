@@ -372,6 +372,36 @@ ul li {
     height: 100%;
     border-radius: 10px;
 }
+/* Customer Review */
+#customer-feedback{
+    text-align: center;
+    color: #131318;
+    font-weight: 800;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted;
+}
+.feedback {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.feedback .customer-feedback{
+    /* height: 100px; */
+    padding: 20px;
+    min-width:auto;
+    max-width: 400px;
+    border: 1px solid darkorange;
+    border-radius: 16px;
+    background: rgb(237, 243, 243);
+    
+}
+.feedback .customer-feedback p{
+    text-align: justify;
+}
 
 /* Newsletter section */
 .Newsletter {

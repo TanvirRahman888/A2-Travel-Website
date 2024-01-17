@@ -6,7 +6,7 @@
     }
 
     .primary-button {
-        width: auto;
+        /* width: auto; */
     }
 
     .header {
@@ -207,6 +207,14 @@
 
     .feature-video-section .feature-video {
         width: 100%;
+    }
+
+    .feedback{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        padding: auto;
+        margin: 30px auto;
     }
 
     .Newsletter {
