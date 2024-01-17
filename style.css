@@ -327,6 +327,76 @@ ul li {
 
 }
 
+.Deals-and-Discounts {}
+#right{
+    margin: 56px auto 56px 56px;
+}
+#left{
+    margin: 56px 56px 56px auto;
+
+}
+.Deals-and-Discounts > h2{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.Deals-and-Discounts >p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.Deals-and-Discounts .travel-location-offer {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    
+    padding: 20px;
+}
+.Deals-and-Discounts span{
+    color: #FF5400;
+font-size: 16px;
+font-weight: 400;
+padding-right: 20px;
+}
+.Deals-and-Discounts h4{
+    display: inline;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+.Deals-and-Discounts .travel-location-1 {
+    background-image: url("Images/1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 56px;
+    margin-bottom: 30px;
+}
+
+.Deals-and-Discounts .travel-location-2 {
+    background-image: url("Images/2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 56px;
+    margin-bottom: 30px;
+}
+
+.Deals-and-Discounts .travel-location-3 {
+    background-image: url("Images/3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 56px;
+    margin-bottom: 30px;
+}
+
 .feature-video-section {
     display: flex;
     justify-content: space-between;
@@ -372,14 +442,16 @@ ul li {
     height: 100%;
     border-radius: 10px;
 }
+
 /* Customer Review */
-#customer-feedback{
+#customer-feedback {
     text-align: center;
     color: #131318;
     font-weight: 800;
     padding-bottom: 15px;
     border-bottom: 1px dotted;
 }
+
 .feedback {
     display: flex;
     flex-direction: row;
@@ -389,17 +461,18 @@ ul li {
     margin-bottom: 80px;
 }
 
-.feedback .customer-feedback{
+.feedback .customer-feedback {
     /* height: 100px; */
     padding: 20px;
-    min-width:auto;
+    min-width: auto;
     max-width: 400px;
     border: 1px solid darkorange;
     border-radius: 16px;
     background: rgb(237, 243, 243);
-    
+
 }
-.feedback .customer-feedback p{
+
+.feedback .customer-feedback p {
     text-align: justify;
 }
 
@@ -501,42 +574,51 @@ ul li {
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
 }
-.footer .footer-logo-title{
+
+.footer .footer-logo-title {
     display: flex;
     justify-content: center;
     padding-top: 110px;
 }
-.footer .footer-logo-title img{
+
+.footer .footer-logo-title img {
     padding: 20px
 }
-.footer .footer-logo-title .footer-title{
+
+.footer .footer-logo-title .footer-title {
     color: #131318;
-font-size: 32px;
-font-weight: 800;
-line-height: 0%;
-padding: 0;
-margin: 0;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 0%;
+    padding: 0;
+    margin: 0;
 }
+
 .footer p {
     width: 40%;
     padding: 0 30% 10px;
 }
-.footer .footer-socila-media{
+
+.footer .footer-socila-media {
     padding-bottom: 50px;
 }
-.footer .footer-socila-media img{
+
+.footer .footer-socila-media img {
     height: 50px;
     width: 50px;
     padding: 15px;
     margin: 5px;
 }
-.footer .footer-socila-media img:hover{
+
+.footer .footer-socila-media img:hover {
     background: #bd9a8225;
     border-radius: 50%;
 }
-.footer hr{
+
+.footer hr {
     margin: 10px 20%;
 }
-.footer .small{
+
+.footer .small {
     margin-bottom: 20px;
 }

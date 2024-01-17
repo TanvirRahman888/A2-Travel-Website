@@ -6,7 +6,7 @@
     }
 
     .primary-button {
-        /* width: auto; */
+        width: auto;
     }
 
     .header {
@@ -80,6 +80,9 @@
         flex-direction: column;
 
 
+    }
+    .Deals-and-Discounts{
+        display: none;
     }
 
     .Popular-Tours .tour-information {
